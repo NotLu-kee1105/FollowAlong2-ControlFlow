@@ -13,6 +13,16 @@ package part08;
 // SECTION B — COMMENTS: when you finish, put a // comment ABOVE every line of code,
 //    saying in YOUR OWN WORDS what that line does. The README shows an example.
 
+import java.util.Scanner;
+
 public class ForLoops {
+    public static void main(String[] args) {
+        for (int i = 10; i >= 0; i-=2) {
+            System.out.println(i);
+        }
+        System.out.println("Happy New Year!");
+
+
+    }
 
 }

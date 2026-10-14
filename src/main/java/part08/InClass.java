@@ -10,13 +10,17 @@ public class InClass {
     public static void main(String[] args) {
 
         // STEP 1 — we build the sensor sweep and the parking map together, here.
-
+        System.out.println("=== SENSOR SWEEP ===");
+        for (int angle = 0; angle <= 180; angle += 45){
+            System.out.println("Scanning at "+ angle + " degrees.");
+        }
+        System.out.println("=== PARKING MAP ===");
+        for
 
 
         // STEP 2 — fix the bugs. Each bug below is inside its own /* ... */.
         // Do ONE bug at a time: delete its /* line and its */ line, so Java sees it.
         // Read the red error. Fix it. Run it. Then do the next bug.
-
         /*
         for (int i = 1, i <= 5, i++) {
             System.out.println(i);
