@@ -9,5 +9,40 @@ package part08;
 // There is no main method here yet. Typing it is part of the stretch.
 
 public class Stretch {
+    /* My Guess:
+    prints for loop(1) 1,2,3 loop(2) prints "i is 5,3,1" loop(3) *** \n ***
+     */
+    public static void main(String[] args) {
+        for (int i = 1; i <= 3; i++) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+        for (int i = 5; i > 0; i -= 2) {
+            System.out.println("i is " + i);
+        }
+        for (int i = 1; i <= 2; i++) {
+            for (int j = 1; j <= 3; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+        //Stretch B1
+        for (int i = 5; i > 0; i-= 1){
+            System.out.println(i);
+        }
+        System.out.println("Liftoff!");
+        //Stretch B2
+        for(int i = 2; i <= 20; i += 2){
+            System.out.println(i);
+        }
+        //Stretch B3
+        for(int row =1;row<=5; row++){
+            for (int col = 1;col <= 5; col++){
+                System.out.println(row*col+ "\t");
+            }
+            System.out.println();
+        }
+    }
 
 }
