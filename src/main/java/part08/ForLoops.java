@@ -14,12 +14,15 @@ package part08;
 //    saying in YOUR OWN WORDS what that line does. The README shows an example.
 
 import java.util.Scanner;
-
+//define a class called ForLoops
 public class ForLoops {
+    //The main method the starting point
     public static void main(String[] args) {
+        //Initiates a for loop that starts at 10 ends at 0 and goes down by 2
         for (int i = 10; i >= 0; i-=2) {
+            //prints the numbers with the variables i
             System.out.println(i);
-        }
+        }//prints Happy New Year
         System.out.println("Happy New Year!");
 
 
