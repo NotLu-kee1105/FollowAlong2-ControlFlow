@@ -15,7 +15,13 @@ public class InClass {
             System.out.println("Scanning at "+ angle + " degrees.");
         }
         System.out.println("=== PARKING MAP ===");
-        //for
+        for (int row = 1;row <= 3; row++) {
+            System.out.print("Row " + row + ": ");
+            for (int spot = 1; spot <= 5; spot++) {
+                System.out.print("[ ]");
+            }
+            System.out.println();
+        }
 
 
         // STEP 2 — fix the bugs. Each bug below is inside its own /* ... */.
